@@ -2,7 +2,23 @@
 
 .text1 h1{
     font-size: 40px;
-    
     letter-spacing: 2px;
     color: white;
 }
+.work-thumb 
+{
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+    background: white;
+    box-shadow: 0px 0px 10px 3px grey;
+    height: 300px;
+}
+.work-thumb img 
+{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+   
+}
+
