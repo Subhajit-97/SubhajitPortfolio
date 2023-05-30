@@ -21,6 +21,19 @@
     margin: auto;
    
 }
+.about-info
+{
+    text-align: center;
+    
+}
+.about
+{
+  text-align: justify;
+}
+.about :hover 
+{
+  color:rgb(11, 240, 49);
+}
 @media only screen and (min-width:200px) and (max-width:767px) 
 {
     .container

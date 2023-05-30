@@ -24,3 +24,7 @@ button.addEventListener("click",()=>
        button.style.paddingRight="0px";
    },3000);
 })
+
+// alert
+
+alert("Welcome To Portfolio of Mr. Subhajit Dey");
