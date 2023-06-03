@@ -28,3 +28,9 @@ button.addEventListener("click",()=>
 // alert
 
 alert("Welcome To Portfolio of Mr. Subhajit Dey");
+
+// function
+function update()
+{
+  alert("Will update very soon");
+}

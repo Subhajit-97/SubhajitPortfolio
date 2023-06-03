@@ -11,8 +11,8 @@
     text-align: center;
     padding: 20px 0px;
     background: white;
-    box-shadow: 0px 0px 10px 3px grey;
-    height: 300px;
+    box-shadow: 0px 0px 10px 3px rgb(201, 143, 19);
+    height: 280px;
 }
 .work-thumb img 
 {
@@ -24,16 +24,91 @@
 .about-info
 {
     text-align: center;
+    color: white;
     
 }
 .about
 {
-  text-align: justify;
+   
+  text-align: justify; 
+  color:white;
+  
 }
 .about :hover 
 {
-  color:rgb(11, 240, 49);
+  color:rgb(30, 240, 11);
+  font-size: 20px;
+  
 }
+.clr
+{
+    color:white;
+}
+.btn
+{
+    
+    position:relative;
+    margin-top:5px;
+
+}
+/* backgrpond-animation */
+body {
+	background: #000000b0;
+	height: 100%;
+}
+.wrapper span {
+	position: fixed;
+	bottom: -100px;
+	height: 50px;
+	width: 50px;
+	z-index: -2;
+	background-color: #fafbff;
+	box-shadow: 0 0 30px #178dc4, 0 0 80px #07e9e9, 0 0 100px #077bee, 0 0 150px #620bf0;
+	animation: animate 10s linear infinite;
+}
+.wrapper span:nth-child(1) {
+	left: 50px;
+	animation-delay: 0.6s;
+}
+.wrapper span:nth-child(2) {
+	left: 10%;
+	animation-delay: 3s;
+	width: 40px;
+	height: 40px;
+}
+.wrapper span:nth-child(3) {
+	left: 30%;
+	animation-delay: 2s;
+}
+.wrapper span:nth-child(4) {
+	left: 50%;
+	animation-delay: 4s;
+	width: 50px;
+	height: 50px;
+}
+.wrapper span:nth-child(5) {
+	left: 70%;
+	animation-delay: 1s;
+}
+.wrapper span:nth-child(6) {
+	left: 90%;
+	animation-delay: 5s;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateY(0);
+		opacity: .6;
+	}
+	80% {
+		opacity: .5;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+
 @media only screen and (min-width:200px) and (max-width:767px) 
 {
     .container
