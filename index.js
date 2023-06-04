@@ -27,7 +27,7 @@ button.addEventListener("click",()=>
 
 // alert
 
-// alert("Welcome To Portfolio of Mr. Subhajit Dey");
+alert("Welcome To Portfolio of Mr. Subhajit Dey");
 
 // function
 function update()
@@ -80,7 +80,7 @@ function slidePrev()
 
 function autoSliding()
 {
-  deletInterval = setInterval(timer,4000);
+  deletInterval = setInterval(timer,2000);
   function timer()
   {
     slideNext();
