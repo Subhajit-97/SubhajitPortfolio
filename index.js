@@ -80,7 +80,7 @@ function slidePrev()
 
 function autoSliding()
 {
-  deletInterval = setInterval(timer,2000);
+  deletInterval = setInterval(timer,3000);
   function timer()
   {
     slideNext();
