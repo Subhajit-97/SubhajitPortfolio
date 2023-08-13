@@ -273,7 +273,7 @@ span.next:hover, span.prev:hover
 		left: 0%;
 	} 
 }
-@media only screen and (min-width:200px) and (max-width:767px)  /*767px*/
+@media only screen and (min-width:200px) and (max-width:1200px)  /*767px*/
 {
     .container
     {
@@ -287,8 +287,9 @@ span.next:hover, span.prev:hover
 		justify-content: center;
 		align-items: center;
 	}
-	
+}
+
 
     
-}
+
 
