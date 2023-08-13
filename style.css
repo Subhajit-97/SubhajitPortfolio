@@ -161,7 +161,14 @@ span.next:hover, span.prev:hover
 	background-color: #555;
 }
 
-
+.copyright-text
+	{
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
 
 
 
@@ -266,7 +273,7 @@ span.next:hover, span.prev:hover
 		left: 0%;
 	} 
 }
-@media only screen and (min-width:200px) and (max-width:767px) 
+@media only screen and (min-width:200px) and (max-width:767px)  /*767px*/
 {
     .container
     {
@@ -274,6 +281,14 @@ span.next:hover, span.prev:hover
         flex-direction: column;
 
     }
+	.about-image
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+
     
 }
 
